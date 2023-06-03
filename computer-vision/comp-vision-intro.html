@@ -16,12 +16,22 @@
 
 		<div class="content">
 			<h1>Computer Vision with Python and OpenCV</h1>
+			
 			<p>A graduate student was attempting to identify size differences in tissue between her experimental and control conditions. 
 			She and her assistants were using a grid counting method to measure the tissue, but were not getting consistent counts. This
-			appeared to be a problem that could be solved using computer vision.</p>
-			<p>The first program, RGB to HSV, takes the Red, Green and Blue values found using <a href="https://www.getpaint.net/">"Paint.Net"</a>
-			and converts it to the Hue, Saturation and Value used by OpenCV in the Stain Selection program.
+			was a problem made for computer vision.</p>
+			
+			<p>First the structures of interest in the tissue had to be identified by the color of their respective stain. The RGB to HSV  
+			program takes the Red, Green and Blue values found using <a href="https://www.getpaint.net/">"Paint.Net"</a> when hovering 
+			over the tissue of interest and converts it to the Hue, Saturation and Value used by OpenCV in the Stain Selection program.
 			</p>
+			
+			<p>The Hue, Saturation and Value is then entered into the Stain Selection program, which then identifies and measures the 
+			tissue of interest in a given set of tissue image. The results were consistent, the graduate student was able to move 
+			forward with her analysis.</p>
+			
+			<p>The programs could be used as is to analyze difference between digital images.</p>
+			
 		</div>
 
 	</body>
